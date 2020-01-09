@@ -162,7 +162,6 @@ function exeCmd(){
 
          var eventStr = getEventDisplayName(eve.event);
 
-
          if(trueChart[_day + '_' + _time].length > 1){
             var language = localStorage.getItem("language");
             if(language=="zh"){
@@ -197,8 +196,7 @@ function exeCmd(){
    } else{
       //copyRow.html(copyRow.html() + '<td colspan="7" id="copy"><font color="#000000"><strong>NewServer-Cat</strong></font>(<font color="#FF0000">ClickMe</font>)</td>');  
    } 
-   copyRow.html(copyRow.html()+'<td colspan="7" id="copy"></td>')
-   //copyRow.html(copyRow.html() + '<td colspan="3" id="copy">☚扫码进微信群</td>');
+   copyRow.html(copyRow.html()+'<td colspan="7" id="copy"><font color="#000000"><strong>改编后现用于493-KOK；</strong></font>(<font color="#FF0000">☛原作者</font>)</td>')
 
 
    tick();
@@ -211,15 +209,15 @@ function exeCmd(){
 }
 
 // 弹窗
-// function onCickCopy(){
-//    var language = localStorage.getItem("language");
-//    if(language=="zh"){
-//    swal('新区活动表', '<br>黑科技=自动化功能<br>野蛮时代QQ群:19471275<br><a href="https://tieba.baidu.com/p/5520296574">【183-飞鸟】最详细的走心攻略</a><br><a href="https://cantgis.github.io/ymsdevent/">【老区每日活动表】</a><br><a href="https://tieba.baidu.com/p/5782383071">【野蛮时代赛季伙伴天梯图-热度榜】</a><br><img src="img/WechatIMG.jpeg" width="200" height="200" /><br><font color="#FF0000">长按图片-识别图中的二维码</font>');
-//    } else{
-//    swal('Releases', '<br>Daily Events Timetable.<br><a href="https://tieba.baidu.com/p/5520296574">【183-飞鸟】The Most detailed Game Strategy.</a><br><a href="https://cantgis.github.io/BrutalAge/">【Old Server Daily Events Timetable】</a><br><a href="https://tieba.baidu.com/p/5782383071">【Partner Ladder Diagram - Strength List】</a><br>Add WeChat Enter The Partner Group<br><img src="img/WechatIMG.jpeg" width="200" height="200" /><br>Contact Author：183-Cat'); 
-//    } 
-
-// };
+function onCickCopy(){
+   var language = localStorage.getItem("language");
+   // if(language=="zh"){
+   // swal('新区活动表', '<br>黑科技=自动化功能<br>野蛮时代QQ群:19471275<br><a href="https://tieba.baidu.com/p/5520296574">【183-飞鸟】最详细的走心攻略</a><br><a href="https://cantgis.github.io/ymsdevent/">【老区每日活动表】</a><br><a href="https://tieba.baidu.com/p/5782383071">【野蛮时代赛季伙伴天梯图-热度榜】</a><br><img src="img/WechatIMG.jpeg" width="200" height="200" /><br><font color="#FF0000">长按图片-识别图中的二维码</font>');
+   // } else{
+   // swal('Releases', '<br>Daily Events Timetable.<br><a href="https://tieba.baidu.com/p/5520296574">【183-飞鸟】The Most detailed Game Strategy.</a><br><a href="https://cantgis.github.io/BrutalAge/">【Old Server Daily Events Timetable】</a><br><a href="https://tieba.baidu.com/p/5782383071">【Partner Ladder Diagram - Strength List】</a><br>Add WeChat Enter The Partner Group<br><img src="img/WechatIMG.jpeg" width="200" height="200" /><br>Contact Author：183-Cat'); 
+   // } 
+   swal('声明', '<br>该活动有变动,表格未更新，常常看错。<br>于是下海改编了一下。emmmm<br>源来自<br><a href="https://cantgis.gitlab.io/ymsd-new/?from=singlemessage&isappinstalled=0">https://cantgis.gitlab.io/ymsd-new/?from=singlemessage&isappinstalled=0</a><br>原作者：【183-飞鸟】<br>');
+};
 
 function onChangeLang(){
 

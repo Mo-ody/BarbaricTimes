@@ -52,23 +52,23 @@ var timeline = {
       },{
          "day": 2,
          "time": 0,
-         "event": "recruit"
-      },{
-         "day": 2,
-         "time": 1,
-         "event": "wish"
-      },{
-         "day": 2,
-         "time": 2,
          "event": "clean"
       },{
          "day": 2,
-         "time": 3,
+         "time": 1,
          "event": "power"
       },{
          "day": 2,
-         "time": 4,
+         "time": 2,
          "event": "research"
+      },{
+         "day": 2,
+         "time": 3,
+         "event": "recruit"
+      },{
+         "day": 2,
+         "time": 4,
+         "event": "wish"
       },{
          "day": 2,
          "time": 5,
@@ -76,7 +76,7 @@ var timeline = {
       },{
          "day": 3,
          "time": 0,
-         "event": "wolf"
+         "event": "research"
       },{
          "day": 3,
          "time": 1,
@@ -84,7 +84,7 @@ var timeline = {
       },{
          "day": 3,
          "time": 2,
-         "event": "recruit"
+         "event": "wolf"
       },{
          "day": 3,
          "time": 3,
