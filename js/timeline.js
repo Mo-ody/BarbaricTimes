@@ -100,7 +100,7 @@ var timeline = {
       },{
          "day": 4,
          "time": 0,
-         "event": "power"
+         "event": "clean"
       },{
          "day": 4,
          "time": 1,
@@ -108,15 +108,15 @@ var timeline = {
       },{
          "day": 4,
          "time": 2,
-         "event": "research"
+         "event": "power"
       },{
          "day": 4,
          "time": 3,
-         "event": "build"
+         "event": "research"
       },{
          "day": 4,
          "time": 4,
-         "event": "clean"
+         "event": "build"
       },{
          "day": 4,
          "time": 5,
@@ -156,7 +156,7 @@ var timeline = {
       },{
          "day": 6,
          "time": 2,
-         "event": "build"
+         "event": "rune"
       },{
          "day": 6,
          "time": 3,
