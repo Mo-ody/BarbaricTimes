@@ -161,14 +161,27 @@ function exeCmd(){
          }
 
          var eventStr = getEventDisplayName(eve.event);
-
+         
+         //临时插入
+         if (_day == 2){
+            //祭坛
+            if (_time ==3||_time ==4||_time ==5){
+               var language = localStorage.getItem("language");
+               if(language=="zh"){
+                  eventStr = '<div id="altar">祭坛</div>' + eventStr;
+               } else{
+                  eventStr = '<div id="altar">altar</div>' + eventStr;   
+               }
+            }
+         }
+         
          if(trueChart[_day + '_' + _time].length > 1){
             var language = localStorage.getItem("language");
             if(language=="zh"){
                eventStr = '<div id="tiger">剑齿虎</div>' + eventStr;
             } else{
                eventStr = '<div id="tiger">Tigers</div>' + eventStr;   
-            } 
+            }
          }
 
          testTime = Math.floor(_testTime / 4);
