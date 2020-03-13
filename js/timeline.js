@@ -96,7 +96,7 @@ var timeline = {
       },{
          "day": 3,
          "time": 5,
-         "event": "rune"
+         "event": "recruit"
       },{
          "day": 4,
          "time": 0,
