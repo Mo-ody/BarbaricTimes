@@ -165,7 +165,7 @@ function exeCmd(){
          //临时插入
          if (_day == 2){
             //祭坛
-            if (_time ==3||_time ==4||_time ==5){
+            if (_time ==2||_time ==3||_time ==4){
                var language = localStorage.getItem("language");
                if(language=="zh"){
                   eventStr = '<div id="altar">祭坛</div>' + eventStr;

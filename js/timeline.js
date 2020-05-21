@@ -16,7 +16,7 @@ var timeline = {
       },{
          "day": 0,
          "time": 3,
-         "event": "build"
+         "event": "rune"
       },{
          "day": 0,
          "time": 4,
@@ -40,71 +40,71 @@ var timeline = {
       },{
          "day": 1,
          "time": 3,
-         "event": "rune"
-      },{
-         "day": 1,
-         "time": 4,
-         "event": "power"
-      },{
-         "day": 1,
-         "time": 5,
-         "event": "research"
-      },{
-         "day": 2,
-         "time": 0,
-         "event": "wish"
-      },{
-         "day": 2,
-         "time": 1,
-         "event": "rune"
-      },{
-         "day": 2,
-         "time": 2,
          "event": "clean"
       },{
-         "day": 2,
-         "time": 3,
+         "day": 1,
+         "time": 4,
          "event": "power"
       },{
-         "day": 2,
-         "time": 4,
-         "event": "research"
-      },{
-         "day": 2,
+         "day": 1,
          "time": 5,
-         "event": "build"
+         "event": "rune"
       },{
-         "day": 3,
+         "day": 2,
          "time": 0,
-         "event": "research"
-      },{
-         "day": 3,
-         "time": 1,
-         "event": "wolf"
-      },{
-         "day": 3,
-         "time": 2,
-         "event": "wolf"
-      },{
-         "day": 3,
-         "time": 3,
-         "event": "wish"
-      },{
-         "day": 3,
-         "time": 4,
-         "event": "power"
-      },{
-         "day": 3,
-         "time": 5,
          "event": "recruit"
       },{
+         "day": 2,
+         "time": 1,
+         "event": "build"
+      },{
+         "day": 2,
+         "time": 2,
+         "event": "clean"
+      },{
+         "day": 2,
+         "time": 3,
+         "event": "power"
+      },{
+         "day": 2,
+         "time": 4,
+         "event": "research"
+      },{
+         "day": 2,
+         "time": 5,
+         "event": "rune"
+      },{
+         "day": 3,
+         "time": 0,
+         "event": "research"
+      },{
+         "day": 3,
+         "time": 1,
+         "event": "rune"
+      },{
+         "day": 3,
+         "time": 2,
+         "event": "recruit"
+      },{
+         "day": 3,
+         "time": 3,
+         "event": "wish"
+      },{
+         "day": 3,
+         "time": 4,
+         "event": "wolf"
+      },{
+         "day": 3,
+         "time": 5,
+         "event": "wolf"
+      },{
          "day": 4,
          "time": 0,
-         "event": "clean"
+         "event": "rune"
       },{
          "day": 4,
          "time": 1,
-         "event": "rune"
+         "event": "wish"
       },{
          "day": 4,
          "time": 2,
