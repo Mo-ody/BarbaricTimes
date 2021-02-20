@@ -174,6 +174,24 @@ function exeCmd(){
                }
             }
          }
+         if (_day == 0&&(_time==1||_time==2)){
+            //大扫除
+            var language = localStorage.getItem("language");
+            if(language=="zh"){
+               eventStr = '<div id="clean">扫除</div>' + eventStr;
+            } else{
+               eventStr = '<div id="clean">clean</div>' + eventStr;   
+            }
+         }
+         if (_day == 5&&_time==4){
+            //大扫除
+            var language = localStorage.getItem("language");
+            if(language=="zh"){
+               eventStr = '<div id="tiger">19点开始</div>' + eventStr;
+            } else{
+               eventStr = '<div id="tiger">Start at 19:00</div>' + eventStr;   
+            }
+         }
          
          if(trueChart[_day + '_' + _time].length > 1){
             var language = localStorage.getItem("language");

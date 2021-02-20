@@ -4,7 +4,7 @@ var timeline = {
       {
          "day": 0,
          "time": 0,
-         "event": "clean"
+         "event": "recruit"
       },{
          "day": 0,
          "time": 1,
@@ -20,15 +20,15 @@ var timeline = {
       },{
          "day": 0,
          "time": 4,
-         "event": "recruit"
+         "event": ""
       },{
          "day": 0,
          "time": 5,
-         "event": "wish"
+         "event": ""
       },{
          "day": 1,
          "time": 0,
-         "event": "build"
+         "event": "research"
       },{
          "day": 1,
          "time": 1,
@@ -48,7 +48,7 @@ var timeline = {
       },{
          "day": 1,
          "time": 5,
-         "event": "rune"
+         "event": "build"
       },{
          "day": 2,
          "time": 0,
@@ -56,7 +56,7 @@ var timeline = {
       },{
          "day": 2,
          "time": 1,
-         "event": "build"
+         "event": "wish"
       },{
          "day": 2,
          "time": 2,
@@ -124,11 +124,11 @@ var timeline = {
       },{
          "day": 5,
          "time": 0,
-         "event": "brutal"
+         "event": "wish"
       },{
          "day": 5,
          "time": 1,
-         "event": "brutal"
+         "event": ""
       },{
          "day": 5,
          "time": 2,
@@ -148,27 +148,27 @@ var timeline = {
       },{
          "day": 6,
          "time": 0,
-         "event": "power"
+         "event": "brutal"
       },{
          "day": 6,
          "time": 1,
-         "event": "research"
+         "event": "brutal"
       },{
          "day": 6,
          "time": 2,
-         "event": "rune"
+         "event": "brutal"
       },{
          "day": 6,
          "time": 3,
-         "event": "recruit"
+         "event": "power"
       },{
          "day": 6,
          "time": 4,
-         "event": "wish"
+         "event": "research"
       },{
          "day": 6,
          "time": 5,
-         "event": "clean"
+         "event": "rune"
       },{
          "day": 3,
          "time": 0,
