@@ -24,7 +24,7 @@ var timeline = {
       },{
          "day": 0,
          "time": 5,
-         "event": ""
+         "event": "wish"
       },{
          "day": 1,
          "time": 0,
